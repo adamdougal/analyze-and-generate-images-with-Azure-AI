@@ -1,0 +1,16 @@
+{
+	"name": "Azure Static Web Apps",
+	"image": "mcr.microsoft.com/azure-functions/python:4-python3.9-core-tools",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-azurefunctions",
+				"ms-azuretools.vscode-azurestaticwebapps",
+				"ms-dotnettools.csharp",
+				"ms-python.python",
+				"dbaeumer.vscode-eslint",
+				"github.copilot"
+			]
+		}
+	}
+}
