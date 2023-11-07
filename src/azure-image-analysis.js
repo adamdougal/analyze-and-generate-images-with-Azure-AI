@@ -2,8 +2,6 @@
 // the endpoint is https://analyze-and-generate-images-dougal.cognitiveservices.azure.com/
 // the key is afc25871ed7940af894ee1441756594e
 // function should receive as input the image URL and return the JSON response of the API
-import React from 'react';
-
 function analyzeImage(imageUrl) { 
     const endpoint = "https://analyze-and-generate-images-dougal.cognitiveservices.azure.com/";
     
